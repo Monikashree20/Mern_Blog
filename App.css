@@ -1,0 +1,582 @@
+body{
+    margin:0;
+    list-style-type: none;
+}
+li{
+  list-style-type: none;
+
+}
+.web{
+  text-decoration: none;
+  color: white;
+  padding-left: 30px;
+  font-size: 25px;
+  margin-top: 15px;
+  font-weight: bold;
+
+}
+.nav{
+    display: flex;
+    border: 2px solid black;
+    position: fixed;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    padding: 5px;
+    width: 100%;
+}
+.home{
+    padding-left: 790px;
+    color: white;
+}
+.change{
+  color: white;
+  padding-left: 35px;
+  margin-left: 2px;
+}
+.hblogger{
+  color: white;
+}
+.login,.signup,.contact{
+    padding-left: 30px;
+    color: white;
+}
+.guest{
+    width: 500px;
+    font-size: 30px;
+    padding: 20px;
+    margin-left:10%;
+    text-align: justify;
+}
+.hguest{
+    display: flex;
+    padding: 25px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 45%;
+    color: white;
+    position:relative;
+    left: 100px;
+}
+.pblg{
+    color: white;
+    position: relative;
+    left: 150px;
+    bottom: 20px;
+}
+button{
+    cursor: pointer;
+}
+.create{
+    position: relative;
+    top: 350px;
+}
+.ablg{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    background-image: url('https://wallup.net/wp-content/uploads/2016/01/210335-nature-landscape.jpg');
+    background-size: cover;
+    height:725px;
+}
+header{
+  /* background-image: url("https://wallpaperaccess.com/full/2484218.jpg"); */
+  background-size: cover;
+}
+.blogbtn{
+  color: white;
+  padding-left: 30px;
+}
+/* login */
+/* Login.css */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://i.pinimg.com/originals/95/08/44/950844d4f0029edc2fc9f9f5212303d7.png');
+
+  background-size: cover;
+}
+
+.login-form {
+  width: 300px;
+  padding: 20px;
+  padding-right: 40px;
+  padding-bottom: 70px;
+  padding-top: 50px;
+  background-color: transparent;
+  backdrop-filter: blur(150px);
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.login-form input:focus {
+  border-color: #007bff;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+.username,.pass{
+  color: white;
+}
+
+ /* signup.Css */
+
+ /* styles.css */
+.sign-up-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .sign-up-form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sign-up-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .sign-up-form label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .sign-up-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .sign-up-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .sign-up-form button:hover {
+    background-color: #0056b3;
+  }
+   */
+
+  .name,.email,.password,.confirmpassword{
+    color: white;
+  }
+
+
+   /* Register.css */
+
+.sign-up-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.sign-up-form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sign-up-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sign-up-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.sign-up-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.sign-up-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+} */
+
+ .sign-up-form button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
+
+/* Register.css */
+/* Register.css */
+
+.sign-up-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-image: url('https://wonderfulengineering.com/wp-content/uploads/2014/07/Landscape-wallpapers-31.jpg');
+  
+}
+
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5); 
+  backdrop-filter: blur(800px); 
+}
+
+.sign-up-form {
+  width: 350px;
+  background-color: #fff;
+  padding: 30px;
+  padding-right: 50px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  backdrop-filter: blur(100px);
+}
+.sign-up-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+.sign-up-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.sign-up-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+.sign-up-form input:focus {
+  border-color: #007bff;
+}
+.sign-up-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  margin-left: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.sign-up-form button:hover {
+  background-color: #0056b3;
+}
+.error {
+  color: red;
+  margin-top: 5px;
+  text-align: center;
+}
+/* createblog */
+.create{
+  display: inline-block;
+  padding: 40px;
+  justify-content: center;
+  position: relative;
+  top: 2px;
+  left: 35%;
+  top: 200px;
+}
+.titlelabel,.contentlabel,.authorlabel{
+  font-size: 25px;
+}
+.contentlabel{
+  position: relative;
+  left: 10px;
+}
+.authorlabel{
+  position: relative;
+  left: 10px;
+}
+.title{
+  position: relative;
+  left: 45px;
+  padding: 4px 20px;
+}
+.content{
+  position: relative;
+  left: 1px;
+  margin-left: 50px;
+  padding: 4px 20px;
+  height: 25px;
+}
+.author{
+  position: relative;
+  left: 10px;
+  padding: 5px 20px;
+  margin-left: 43px;
+  
+}
+.createblogbutton{
+  font-size: 20px;
+  position: relative;
+  left: 10px;
+  padding: 10px 16px;
+  margin-top: 20px;
+}
+.blogcreation{
+background-image: url("https://wallpaperaccess.com/full/3239480.jpg");
+background-size: cover;
+background: linear-gradient(to right, #bfe9ff, #ff6e7f);;
+height: 200vh;
+width: 100%;
+color: black;
+padding: 20px;
+}
+/* blogpage.css */
+.bloghead {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  column-gap: 30px;
+  padding: 0px 150px;
+}
+
+.container > div {
+  flex: 0 0 calc(33.33% - 20px); /* Adjust the width of each column */
+  margin-bottom: 20px; /* Add some space between each column */
+  box-sizing: border-box;
+}
+
+.container > div img {
+  width: 100%;
+  height: 200px; /* Set a fixed height for all images */
+  object-fit: cover; /* Ensure images maintain aspect ratio */
+  border-radius: 8px;
+}
+
+.container > div h2 {
+  margin-top: 10px;
+}
+
+.container > div p {
+  margin-bottom: 10px;
+
+}
+
+.container > div a {
+  text-decoration: none;
+  color: blue;
+}
+
+.container > div a:hover {
+  text-decoration: underline;
+}
+.blk{
+  color: black;
+}
+
+/* foodpage css */
+
+.container1{
+  display:flex;
+   margin-top:80px;
+  }
+  
+  .img1{
+      /* background-color:blue; */
+      margin-left:40px;
+  
+  }
+  .img1 img{
+      height:350px;
+      border-radius:10%;
+      border: 3px solid blueviolet;
+   
+  }
+  .para{
+      margin:0px;
+  }
+  .para h2{
+      font-size:40px;
+     text-align:center;
+     background-image:linear-gradient( to right,blue,red,blue);
+      -webkit-background-clip:text;
+      color:transparent;
+  }
+  .para p{
+      text-align:center;
+      font-size:27px;
+  }
+
+  /* Educationblog.css */
+
+  .eduaction{
+    display:flex;
+     margin-top:80px;
+    }
+    
+    .img2{
+        /* background-color:blue; */
+        margin-left:40px;
+    
+    }
+    .img2 img{
+        height:350px;
+        border-radius:10%;
+        border: 3px solid violet;
+     
+    }
+    .para1{
+        margin:0px;
+    }
+    .para1 h2{
+        font-size:40px;
+       text-align:center;
+       background-image:linear-gradient( to right,blue,yellow,blue);
+        -webkit-background-clip:text;
+        color:transparent;
+    }
+    .para1 p{
+        text-align:center;
+        font-size:27px;
+    }
+
+    /* healthblog.css */
+
+    .health{
+      display:flex;
+       margin-top:80px;
+      }
+      
+      .img2{
+          /* background-color:blue; */
+          margin-left:40px;
+      
+      }
+      .img2 img{
+          height:350px;
+          border-radius:10%;
+          border: 3px solid violet;
+       
+      }
+      .para1{
+          margin:0px;
+      }
+      .para1 h2{
+          font-size:40px;
+         text-align:center;
+         background-image:linear-gradient( to right,green,yellow,red);
+          -webkit-background-clip:text;
+          color:transparent;
+      }
+      .para1 p{
+          text-align:center;
+          font-size:27px;
+      }
+      .newcreatedblogs{
+        display: inline-block;
+        border: 2px solid white;
+        max-width: 450px;
+        list-style-type: none;
+        content: "";
+        display: block;
+        padding: 20px;
+        margin: 20px;
+      }
+      .blogcreation{
+        width: 100%;
+        height: 500vh;
+      }
+      .create1{
+        /* border: 2px solid white; */
+        padding: 60px 50px;
+        border-radius: 10px;
+        position: relative;
+        bottom: 200px;
+        text-align: center;
+        background: transparent;
+        backdrop-filter: blur(30px);
+        box-shadow: 5px 5px 10px palevioletred;
+      }
+      .spanblognew{
+        position: relative;
+        bottom: 150px;
+        
+      }
+      .spanhead{
+        font-size: 40px;
+      }
+
+     
